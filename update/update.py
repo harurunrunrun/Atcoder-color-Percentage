@@ -1,4 +1,3 @@
-#index.html update用ファイル
 import requests
 import datetime
 
@@ -32,7 +31,10 @@ gray=sum(rate_list[:22])+brown
 
 htmlcode=f'''
 <html>
-<head><title>atcoder color percentages</title></head>
+<head>
+<title>atcoder color percentages</title>
+<meta http-equiv="content-type" charset="Shift_JIS">
+</head>
 <body>
 <h1>AtCoder color Percentage</h1>
 <p>最終更新日時: {day} (JST)</p>
