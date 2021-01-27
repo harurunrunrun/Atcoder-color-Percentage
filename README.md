@@ -1,5 +1,5 @@
 # Atcoder-color-Percentage
-色別の上位%がわかります。
+色別の上位N%がわかります。
 
 更新されていない場合 or 詳細が知りたい場合
 calculate.pyをコンソール上で動かすと表示されます。
