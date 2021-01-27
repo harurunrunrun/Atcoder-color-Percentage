@@ -6,3 +6,5 @@ calculate.pyをコンソール上で動かすと表示されます。
 AtCoderのWebを直接開いているので過度な使用はお控えください。
 
 更新は手動のため遅れることがあります。
+ページリンク
+https://harurunrunrun.github.io/Atcoder-color-Percentage/
