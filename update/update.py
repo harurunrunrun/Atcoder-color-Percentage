@@ -1,4 +1,4 @@
-#update用ファイル
+#index.html update用ファイル
 import requests
 import datetime
 
