@@ -33,7 +33,7 @@ htmlcode=f'''
 <html>
 <head>
 <title>atcoder color percentages</title>
-<meta http-equiv="content-type" charset="Shift_JIS">
+<meta http-equiv="content-type" charset="UTF-8">
 </head>
 <body>
 <h1>AtCoder color Percentage</h1>
@@ -53,5 +53,5 @@ htmlcode=f'''
 </body>
 </html>
 '''
-with open("index.html",mode="w")as file:
+with open("index.html",mode="w",encoding="UTF-8")as file:
   file.write(htmlcode)
