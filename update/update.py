@@ -53,7 +53,7 @@ htmlcode=f'''
 <meta http-equiv="content-type" charset="UTF-8">
 </head>
 <body>
-<h1>AtCoder color Percentage</h1>
+<h1>AtCoder color Percentage (簡易版)<font color="#FFFFFF" size=1>　　簡易版しかないけど</font></h1>
 <p>最終更新日時: {day} (JST)</p>
 <p><font color="red">赤:　　{user_num[0]}人　　　上位 {100*red/user_all}%</p></font>
 <p><font color="#FF9900">橙:　　{user_num[1]}人　　　上位 {100*orange/user_all}%</p></font>
@@ -63,11 +63,11 @@ htmlcode=f'''
 <p><font color="green">緑:　　{user_num[5]}人　　　上位 {100*green/user_all}%</p></font>
 <p><font color="brown">茶:　　{user_num[6]}人　　　上位 {100*brown/user_all}%</p></font>
 <p><font color="gray">灰:　　{user_num[7]}人　　　上位 {100*gray/user_all}%</p></font>
-<br>
 <p><font color="black">参加者合計: {gray}人</font></p>
 <br>
-<p>このページは手動更新です。</p>
-<p>更新されていないとき、あるいは詳しい分布を知りたいときはREADMEを読んでください。</p>
+<p>＊注意＊<br>この割合は補正が入っています。補正を抜いていません。<font color="#FFFFFF"><s>(補正を抜くのは面倒というかこの仕様では無理)</s></p>
+<p>(補正抜きはChokudaiさんの2020/10/15のツイートにあります。)</font></p>
+<p>このページは手動更新です。更新されていないとき、あるいは詳しい分布を知りたいときはREADMEを読んでください。</p>
 <a href="https://github.com/harurunrunrun/Atcoder-color-Percentage">github</a>
 </body>
 </html>
